@@ -1,0 +1,182 @@
+/* Customer Register Page Styles */
+
+.customer-register-container {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #caf0f8, #90e0ef);
+}
+
+.customer-register-appbar {
+  background: linear-gradient(90deg, #0077b6, #00b4d8) !important;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12) !important;
+}
+
+.customer-register-logo {
+  margin-right: 16px !important;
+  font-size: 30px !important;
+}
+
+.customer-register-title {
+  flex-grow: 1 !important;
+  font-weight: bold !important;
+}
+
+.customer-register-nav-button {
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+  font-weight: 500 !important;
+}
+
+.customer-register-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 140px);
+  padding: 32px 16px;
+}
+
+.customer-register-card {
+  width: 100%;
+  max-width: 480px;
+  padding: 0;
+  border-radius: 16px !important;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1) !important;
+  background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%) !important;
+  border: 1px solid rgba(255,255,255,0.2) !important;
+  animation: slideUp 0.6s ease-out;
+  position: relative;
+}
+
+.customer-register-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #0077b6, #00b4d8);
+  border-radius: 16px 16px 0 0;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (min-width: 600px) {
+  .customer-register-card {
+    width: 480px;
+  }
+}
+
+.customer-register-card-content {
+  padding: 32px !important;
+}
+
+.customer-register-header {
+  text-align: center;
+  margin-bottom: 32px !important;
+}
+
+.customer-register-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #0077b6, #00b4d8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+  box-shadow: 0 8px 25px rgba(0,119,182,0.3);
+}
+
+.customer-register-avatar-icon {
+  font-size: 40px !important;
+  color: white !important;
+}
+
+.customer-register-main-title {
+  font-weight: 700 !important;
+  color: #023e8a !important;
+  margin-bottom: 8px !important;
+}
+
+.customer-register-subtitle {
+  color: #64748b !important;
+}
+
+.customer-register-textfield {
+  margin-bottom: 16px !important;
+}
+
+.customer-register-textfield .MuiOutlinedInput-root {
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.customer-register-textfield .MuiOutlinedInput-root:hover {
+  box-shadow: 0 4px 12px rgba(0,119,182,0.15) !important;
+}
+
+.customer-register-textfield-last {
+  margin-bottom: 24px !important;
+}
+
+.customer-register-textfield-last .MuiOutlinedInput-root {
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.customer-register-textfield-last .MuiOutlinedInput-root:hover {
+  box-shadow: 0 4px 12px rgba(0,119,182,0.15) !important;
+}
+
+.customer-register-icon {
+  margin-right: 8px !important;
+  color: #0077b6 !important;
+}
+
+.customer-register-submit-button {
+  padding: 12px 0 !important;
+  margin-bottom: 24px !important;
+  background: linear-gradient(135deg, #0077b6, #00b4d8) !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+  box-shadow: 0 8px 25px rgba(0,119,182,0.3) !important;
+  transition: all 0.3s ease !important;
+}
+
+.customer-register-submit-button:hover {
+  background: linear-gradient(135deg, #023e8a, #0077b6) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 12px 35px rgba(2,62,138,0.4) !important;
+}
+
+.customer-register-submit-button:disabled {
+  background: #94a3b8 !important;
+  box-shadow: none !important;
+}
+
+.customer-register-login-link {
+  text-align: center;
+}
+
+.customer-register-login-button {
+  color: #0077b6 !important;
+  text-decoration: none !important;
+}
+
+.customer-register-footer {
+  background-color: #023e8a !important;
+  color: white !important;
+  padding: 12px 0 !important;
+  text-align: center;
+}
