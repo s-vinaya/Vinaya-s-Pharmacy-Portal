@@ -1,0 +1,6 @@
+@ReactPharmacyPortal_HostAddress = http://localhost:5280
+
+GET {{ReactPharmacyPortal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
