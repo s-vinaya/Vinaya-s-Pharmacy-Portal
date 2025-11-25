@@ -1,74 +1,125 @@
-A modern Pharmacy Management System built using React (frontend) and ASP.NET Core Web API (backend).
-This project helps manage medicines, categories, customers, and admin dashboard analytics with a clean UI and optimized code structure.
+🏥 Vinaya's Pharmacy Portal
+A comprehensive pharmacy management system built with React.js frontend and .NET Core backend, designed to streamline pharmacy operations and enhance customer experience.
+
+🌟 Overview
+This full-stack web application provides a complete pharmacy management solution with role-based access for Admins, Pharmacists, and Customers. The system facilitates medicine ordering, prescription management, inventory control, and user administration.
 
 🚀 Features
-🧪 Medicine Management
+👨‍💼 Admin Dashboard
+User Management: Approve pharmacists, manage customer accounts
 
-Add, Edit, Delete medicines
+Medicine Inventory: Add, update, and manage medicine catalog
 
-View all medicines
+Order Management: Monitor and process customer orders
 
-Category-based filtering
+Prescription Oversight: Review and verify uploaded prescriptions
 
-Prevent duplicate API calls using useRef()
+Analytics & Reports: Dashboard with sales metrics and system alerts
 
-Simple caching with Map
+System Monitoring: Real-time activity tracking and low stock alerts
 
-📂 Category Management
+👨‍⚕️ Pharmacist Dashboard
+Order Processing: Update order status (Processing → Shipped → Delivered)
 
-Add/View categories
+Prescription Verification: Review and approve/reject prescriptions
 
-Category dropdown for medicine creation
+Medicine Inventory: Manage stock levels and medicine information
 
-Reusable Category Select component
+Customer Support: Handle order inquiries and prescription reviews
 
-👤 Customer Registration
+👤 Customer Portal
+Medicine Catalog: Browse and search available medicines
 
-Fully controlled form using useState
+Shopping Cart: Add medicines to cart and place orders
 
-Dynamic input handler with handleChange()
+Prescription Upload: Submit prescriptions for verification
 
-Form validation using validateForm()
+Order Tracking: Monitor order status and history
 
-Snackbar for success/error alerts
+Profile Management: Update personal information and delivery addresses
 
-📊 Admin Dashboard
+Order History: View past orders and reorder functionality
 
-Tab-based navigation (Dashboard, Medicines, Categories, Users)
-
-Track visited tabs using visitedTabs
-
-Dashboard statistics (medicines count, user count, category count)
-
-Menu open/close using anchorEl
-
-🔄 React Concepts Used
-
-Hooks: useState, useEffect, useRef, useContext
-
-Functions: map(), filter(), forEach()
-
-Component architecture: Controlled components, reusable components
-
-API Handling: Axios/Fetch, error handling
-
-Optimization: Caching + preventing unnecessary API calls
-
-🛠️ Tech Stack
+🛠️ Technology Stack
 Frontend
+React.js with TypeScript
 
-React 19
+Material-UI (MUI) for modern UI components
 
-Material UI
+React Router for navigation
 
-Axios / Fetch
+Context API for state management
 
-React Router 
+Responsive Design for mobile compatibility
 
 Backend
+.NET Core 8 Web API
 
-ASP.NET Core Web API
+Entity Framework Core for database operations
 
-SQL Server
+SQL Server database
 
-RESTful endpoints
+JWT Authentication for secure access
+
+AutoMapper for object mapping
+
+RESTful API architecture
+
+📱 Key Functionalities
+Authentication & Authorization
+Role-based access control (Admin, Pharmacist, Customer)
+
+JWT token-based authentication
+
+Secure password management
+
+User registration and login
+
+Medicine Management
+Comprehensive medicine catalog
+
+Search and filter functionality
+
+Stock level monitoring
+
+Price management
+
+Order Processing
+Complete order lifecycle management
+
+Real-time status updates
+
+Order history and tracking
+
+Cancellation capabilities
+
+Prescription Handling
+Digital prescription upload
+
+Pharmacist verification workflow
+
+Approval/rejection system
+
+Prescription history
+
+Dashboard Analytics
+Real-time metrics and KPIs
+
+Sales analytics and reporting
+
+User activity monitoring
+
+System health alerts
+
+🎨 UI/UX Features
+Modern, responsive design
+
+Intuitive navigation
+
+Loading states and progress indicators
+
+Interactive data tables with sorting/filtering
+
+Real-time notifications
+
+Mobile-friendly interface
